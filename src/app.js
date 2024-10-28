@@ -1,7 +1,5 @@
 window.onload = function() {
-  //write your code here
-
-  let primera = "Un ";
+  let primera = ["Un "];
   let nombre = [
     "mapache ",
     "cocodrilo ",
@@ -43,8 +41,8 @@ window.onload = function() {
   let dondeN = Math.floor(Math.random() * donde.length);
 
   document.querySelector("#excusa").innerHTML =
-    primera +
-    nombre[primeraN] +
+    primera[primeraN] +
+    nombre[nombreN] +
     adjetivo[adjetivoN] +
     accion[accionN] +
     objeto[objetoN] +
